@@ -3,7 +3,10 @@ import Footer from "components/Footers/Footer.js";
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useAlert } from "react-alert";
-const API_URL = process.env.NODE_ENV === "production" ? "/api/" : "http://localhost:8080/api/";
+const API_URL =
+  process.env.NODE_ENV === "production"
+    ? "/api/"
+    : "http://localhost:8080/api/";
 
 export default function Profile() {
   const [userdata, setUserData] = useState({});

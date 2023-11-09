@@ -29,13 +29,13 @@ export default function CustomCardTable(props) {
             <div className="relative w-full px-4 max-w-full flex-grow flex-1 text-right">
               <div className="flex flex-row space-x-4 justify-end">
                 <Link
-                  className="bg-indigo-500 text-white active:bg-indigo-600 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                  className="bg-indigo-500 text-white active:bg-indigo-600 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 text-center"
                   to={"/admin/customdata/add/" + props.schema_id}
                 >
                   Add Data
                 </Link>
                 <Link
-                  className="bg-indigo-500 text-white active:bg-indigo-600 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                  className="bg-indigo-500 text-white active:bg-indigo-600 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 text-center"
                   onClick={() => {
                     props.deleteMyCustom(props.schema_id);
                   }}

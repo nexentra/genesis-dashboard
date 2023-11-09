@@ -111,13 +111,12 @@ export default function Sidebar() {
                       "fas fa-table mr-2 text-sm " +
                       (window.location.href.indexOf("/admin/tables") !== -1
                         ? "opacity-75"
-                        : "text-blueGray-300")
+                        : "text-blueGray-300 ")
                     }
                   ></i>{" "}
                   Tables
                 </Link>
               </li>
-
             </ul>
 
             {/* Divider */}

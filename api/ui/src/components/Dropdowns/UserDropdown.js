@@ -46,11 +46,11 @@ const UserDropdown = () => {
         }}
       >
 
-        <div className="items-center flex">
-          <span className="w-12 h-12 text-sm text-white bg-blueGray-200 inline-flex items-center justify-center rounded-full">
+        <div className="items-center flex rounded-full shadow ">
+          <span className="w-12 h-12 text-sm text-white bg-white inline-flex items-center justify-center rounded-full ">
             <img
               alt=""
-              className="w-full rounded-full  align-middle border-none shadow-lg"
+              className="w-full rounded-full align-middle border-none"
               src={userdata.profile_icon}
               onError={({ currentTarget }) => {
                 currentTarget.onerror = null; // prevents looping
